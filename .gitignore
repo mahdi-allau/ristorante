@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# env files: never commit secrets, the documented .env.example stays tracked
+.env
+.env.*
+!.env.example
+
+*.log
+.DS_Store
+.claude/settings.local.json
+.claude/worktrees/

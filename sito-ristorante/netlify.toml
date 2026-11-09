@@ -1,0 +1,13 @@
+# Configurazione Netlify. Netlify riconosce Next.js e usa il suo runtime ufficiale: serve solo la build.
+# Variabili d'ambiente: impostarle dal pannello Netlify (vedi .env.example), mai nel repository.
+[build]
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NEXT_TELEMETRY_DISABLED = "1"
+
+# Funzione pianificata (ogni ora): promemoria 24 h prima e richieste di recensione.
+# Richiede CRON_SECRET tra le variabili d'ambiente.
+[functions]
+  directory = "netlify/functions"

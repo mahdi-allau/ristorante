@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "demo-osteria",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["--yes", "serve", "demo", "-l", "4173", "--no-clipboard"],
+      "port": 4173
+    },
+    {
+      "name": "sito-next",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "sito-ristorante", "run", "start"],
+      "port": 3000
+    },
+    {
+      "name": "demo-quattro-angeli",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "demo-quattro-angeli", "run", "start"],
+      "port": 3001
+    }
+  ]
+}

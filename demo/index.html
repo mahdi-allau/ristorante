@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Osteria Lumina — Cucina d'autore a Milano, Navigli</title>
+<meta name="description" content="Osteria Lumina (sito dimostrativo): cucina italiana d'autore sui Navigli, Milano. Prenota il tuo tavolo online in 3 passaggi.">
+<meta name="theme-color" content="#0E0D0B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Osteria Lumina (DEMO)",
+  "description": "Cucina italiana d'autore sui Navigli, Milano. Sito dimostrativo.",
+  "servesCuisine": ["Italiana", "Pesce", "Stagionale"],
+  "priceRange": "€€€",
+  "telephone": "+39 02 0000 0000",
+  "url": "https://esempio.it/",
+  "acceptsReservations": "True",
+  "hasMenu": "https://esempio.it/#menu",
+  "address": {"@type": "PostalAddress", "streetAddress": "Via Esempio 12", "addressLocality": "Milano", "postalCode": "20144", "addressCountry": "IT"},
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "12:30", "closes": "14:30"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "19:30", "closes": "23:00"}
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Vai al contenuto</a>
+
+<div class="demo-ribbon">Sito dimostrativo · dati di fantasia</div>
+
+<header class="header" id="top">
+  <a class="logo" href="#top" aria-label="Osteria Lumina — inizio pagina">Osteria <em>Lumina</em></a>
+  <nav class="nav" aria-label="Principale">
+    <a href="#menu">Menu</a>
+    <a href="#locale">Il locale</a>
+    <a href="#eventi">Eventi</a>
+    <a href="#contatti">Contatti</a>
+  </nav>
+  <div class="header-right">
+    <span class="lang" aria-label="Lingua"><b>IT</b> · <a href="#" onclick="return false" title="Versione inglese disponibile nel progetto reale">EN</a></span>
+    <a class="btn btn-sm" href="#prenota" data-track="click_prenota">Prenota</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-inner reveal">
+    <p class="eyebrow">Navigli · Milano · dal 2014</p>
+    <h1>La cucina italiana,<br><em>a lume di candela.</em></h1>
+    <p class="lead">Ingredienti di stagione, cotture lente e una sala di quaranta coperti. Il tavolo giusto, la sera giusta.</p>
+    <div class="hero-cta">
+      <a class="btn" href="#prenota" data-track="click_prenota">Prenota un tavolo</a>
+      <a class="link" href="#menu">Scopri il menu</a>
+    </div>
+    <p class="status" id="status" role="status" aria-live="polite">&nbsp;</p>
+  </div>
+  <a class="scroll-hint" href="#locale" aria-label="Scorri">↓</a>
+</section>
+
+<!-- PILASTRI -->
+<section class="section pillars" id="locale">
+  <div class="wrap">
+    <p class="eyebrow reveal">Il locale</p>
+    <h2 class="reveal">Poche cose, fatte con ossessione.</h2>
+    <div class="grid3">
+      <article class="pillar reveal">
+        <span class="num">I</span>
+        <h3>La cucina</h3>
+        <p>Un menu corto che cambia con le stagioni. Pasta tirata ogni mattina, pesce da piccoli pescatori, verdure da due orti lombardi.</p>
+      </article>
+      <article class="pillar reveal">
+        <span class="num">II</span>
+        <h3>L'atmosfera</h3>
+        <p>Luce bassa, legno scuro, tavoli distanziati. Una sala per parlare, non per urlare sopra la musica.</p>
+      </article>
+      <article class="pillar reveal">
+        <span class="num">III</span>
+        <h3>La cantina</h3>
+        <p>Centoventi etichette, il 70% da piccoli produttori italiani. Sedici vini al calice, abbinamenti consigliati dalla sala.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERIA / FOTO -->
+<section class="section gallery" aria-label="Galleria">
+  <div class="wrap wide">
+    <div class="gallery-grid">
+      <figure class="ph ph-a reveal"><figcaption>Foto sala</figcaption></figure>
+      <figure class="ph ph-b reveal"><figcaption>Foto piatto firma</figcaption></figure>
+      <figure class="ph ph-c reveal"><figcaption>Foto cantina</figcaption></figure>
+      <figure class="ph ph-d reveal"><figcaption>Foto chef</figcaption></figure>
+    </div>
+    <p class="note reveal">Nel progetto reale queste aree ospitano le foto professionali del locale (servizio fotografico incluso nel pacchetto Signature).</p>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="section menu" id="menu">
+  <div class="wrap">
+    <p class="eyebrow reveal">Menu</p>
+    <h2 class="reveal">Autunno / Inverno</h2>
+    <p class="sub reveal">Filtra per portata o per esigenze alimentari. Gli allergeni sono indicati per ogni piatto (Reg. UE 1169/2011).</p>
+
+    <div class="filters reveal" role="tablist" aria-label="Filtra il menu">
+      <button class="chip is-active" data-filter="all" role="tab" aria-selected="true">Tutto</button>
+      <button class="chip" data-filter="antipasti" role="tab" aria-selected="false">Antipasti</button>
+      <button class="chip" data-filter="primi" role="tab" aria-selected="false">Primi</button>
+      <button class="chip" data-filter="secondi" role="tab" aria-selected="false">Secondi</button>
+      <button class="chip" data-filter="dolci" role="tab" aria-selected="false">Dolci</button>
+      <button class="chip chip-veg" data-filter="veg" role="tab" aria-selected="false">Vegetariano</button>
+    </div>
+
+    <ul class="dishes" id="dishes"></ul>
+
+    <div class="legend reveal" id="legend" aria-label="Legenda allergeni"></div>
+    <p class="note reveal">Degustazione in 5 portate 85 € · con abbinamento vini 130 € · Coperto 3 € · Per intolleranze e allergie, avvisa il personale.</p>
+  </div>
+</section>
+
+<!-- CITAZIONI -->
+<section class="section quotes" aria-label="Recensioni">
+  <div class="wrap">
+    <blockquote class="reveal">
+      <p>«Testo di recensione di esempio. Nel progetto reale qui compaiono solo recensioni vere, con fonte e data.»</p>
+      <footer>— Recensione dimostrativa · Google</footer>
+    </blockquote>
+    <p class="rating reveal"><span class="stars" aria-hidden="true">★★★★★</span> <b>4,8</b> su 5 · <span class="muted">dato di esempio</span></p>
+  </div>
+</section>
+
+<!-- EVENTI -->
+<section class="section events" id="eventi">
+  <div class="wrap">
+    <p class="eyebrow reveal">Eventi &amp; private dining</p>
+    <h2 class="reveal">Una sala tutta per voi.</h2>
+    <div class="grid3">
+      <article class="card reveal"><h3>Cene aziendali</h3><p>Fino a 40 persone, menu concordato, fattura elettronica e nessun costo di sala il martedì.</p></article>
+      <article class="card reveal"><h3>Compleanni &amp; ricorrenze</h3><p>Torta personalizzata, brindisi di benvenuto, sala riservata dal giovedì alla domenica.</p></article>
+      <article class="card reveal"><h3>Gift card</h3><p>Il regalo più facile: importo a scelta, consegna via email con biglietto personalizzato.</p></article>
+    </div>
+    <p class="center reveal"><a class="link" href="#contatti">Richiedi un preventivo →</a></p>
+  </div>
+</section>
+
+<!-- PRENOTAZIONE -->
+<section class="section booking" id="prenota">
+  <div class="wrap narrow">
+    <p class="eyebrow reveal">Prenota</p>
+    <h2 class="reveal">Il vostro tavolo, in tre passaggi.</h2>
+
+    <form class="book reveal" id="bookForm" novalidate>
+      <ol class="steps" aria-hidden="true"><li class="on">Quando</li><li>Orario</li><li>Dati</li></ol>
+
+      <div class="row">
+        <label>Data
+          <input type="date" id="bDate" required>
+        </label>
+        <label>Persone
+          <select id="bGuests" required>
+            <option value="1">1</option><option value="2" selected>2</option><option value="3">3</option>
+            <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+            <option value="7">7</option><option value="8">8</option>
+          </select>
+        </label>
+      </div>
+
+      <fieldset class="slots-fs">
+        <legend>Orario disponibile</legend>
+        <div class="slots" id="slots" role="radiogroup" aria-label="Orari"></div>
+        <p class="hint" id="slotsHint">Scegli una data per vedere gli orari.</p>
+      </fieldset>
+
+      <div class="row">
+        <label>Nome e cognome
+          <input type="text" id="bName" autocomplete="name" required>
+        </label>
+        <label>Telefono
+          <input type="tel" id="bPhone" autocomplete="tel" required>
+        </label>
+      </div>
+      <label>Email
+        <input type="email" id="bEmail" autocomplete="email" required>
+      </label>
+      <label>Note (allergie, occasioni speciali)
+        <textarea id="bNotes" rows="2"></textarea>
+      </label>
+      <label class="check"><input type="checkbox" id="bPrivacy" required> Ho letto l'informativa privacy.</label>
+      <label class="check"><input type="checkbox" id="bMkt"> Voglio ricevere novità ed eventi (facoltativo).</label>
+
+      <p class="error" id="bError" role="alert" hidden></p>
+      <button class="btn btn-block" type="submit" data-track="booking_submit">Conferma prenotazione</button>
+      <p class="hint center">Promemoria automatico 24 ore prima, con possibilità di disdire in un tocco. Demo: nessun dato viene inviato.</p>
+    </form>
+
+    <div class="confirm" id="confirm" hidden role="status" tabindex="-1">
+      <p class="eyebrow">Prenotazione registrata</p>
+      <h3 id="cTitle"></h3>
+      <p id="cText"></p>
+      <button class="link" id="cReset" type="button">Nuova prenotazione</button>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATTI -->
+<section class="section contacts" id="contatti">
+  <div class="wrap">
+    <div class="contacts-grid">
+      <div class="reveal">
+        <p class="eyebrow">Contatti</p>
+        <h2>Come arrivare</h2>
+        <address>
+          Via Esempio 12, 20144 Milano<br>
+          <span class="muted">Navigli · a 4 minuti a piedi da M2 Porta Genova</span>
+        </address>
+        <p><a class="link" href="tel:+390200000000" data-track="click_telefono">+39 02 0000 0000</a><br>
+        <a class="link" href="mailto:prenotazioni@esempio.it">prenotazioni@esempio.it</a></p>
+        <p class="note">Parcheggio convenzionato in Via Esempio 30 · Sala accessibile · Cani ammessi</p>
+      </div>
+      <div class="reveal">
+        <h3>Orari</h3>
+        <table class="hours" id="hours">
+          <tbody>
+            <tr data-d="1"><th>Lunedì</th><td>Chiuso</td></tr>
+            <tr data-d="2"><th>Martedì</th><td>12:30–14:30 · 19:30–23:00</td></tr>
+            <tr data-d="3"><th>Mercoledì</th><td>12:30–14:30 · 19:30–23:00</td></tr>
+            <tr data-d="4"><th>Giovedì</th><td>12:30–14:30 · 19:30–23:00</td></tr>
+            <tr data-d="5"><th>Venerdì</th><td>12:30–14:30 · 19:30–23:00</td></tr>
+            <tr data-d="6"><th>Sabato</th><td>12:30–14:30 · 19:30–23:00</td></tr>
+            <tr data-d="0"><th>Domenica</th><td>12:30–14:30 · 19:30–23:00</td></tr>
+          </tbody>
+        </table>
+        <div class="map" role="img" aria-label="Segnaposto mappa"><span>Mappa Google<br><small>caricata solo dopo il consenso cookie</small></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-in">
+    <p class="logo">Osteria <em>Lumina</em></p>
+    <p class="muted">Lumina S.r.l. · P.IVA 00000000000 · REA MI-0000000 · Via Esempio 12, 20144 Milano</p>
+    <p class="muted"><a href="#" onclick="return false">Privacy</a> · <a href="#" onclick="return false">Cookie</a> · <a href="#" onclick="return false">Allergeni</a> · <a href="#" onclick="return false">Accessibilità</a></p>
+    <p class="muted small">Sito dimostrativo realizzato come esempio. Nome, dati societari e contenuti sono fittizi.</p>
+  </div>
+</footer>
+
+<!-- Barra mobile -->
+<nav class="mbar" aria-label="Azioni rapide">
+  <a href="tel:+390200000000" data-track="click_telefono">Chiama</a>
+  <a href="https://maps.google.com/?q=Navigli+Milano" target="_blank" rel="noopener" data-track="click_mappa">Indicazioni</a>
+  <a class="mbar-cta" href="#prenota" data-track="click_prenota">Prenota</a>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
